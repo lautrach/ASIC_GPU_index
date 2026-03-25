@@ -1,0 +1,666 @@
+date,provider,region,gpu_model,num_gpus,vram_per_gpu_gb,price_per_hour_usd,available,interconnect
+2026-03-23,lambdalabs,"IN, Mumbai",A10,1,24,0.75,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A10,1,24,0.75,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A10,1,24,0.75,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A10,1,24,0.75,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A10,1,24,0.75,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A10,1,24,0.75,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A10,1,24,0.75,False,pcie
+2026-03-23,denvr,"CA, Calgary",A100,1,40,1.25,True,sxm4
+2026-03-23,lambdalabs,"US, Chicago, IL",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"US, San Jose, Ca",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"US, Dallas, TX",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"JP, Osaka",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"IN, Mumbai",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"US, Dulles, VA",A100,1,40,1.29,False,sxm4
+2026-03-23,lambdalabs,"IN, Mumbai",A100,1,40,1.29,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A100,1,40,1.29,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A100,1,40,1.29,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A100,1,40,1.29,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A100,1,40,1.29,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A100,1,40,1.29,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A100,1,40,1.29,False,pcie
+2026-03-23,verda,"FI, Central",A100,1,40,1.36,False,sxm4
+2026-03-23,crusoe,"US, Fairview, OH",A100,1,40,1.45,False,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",A100,2,40,2.58,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A100,2,40,2.58,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A100,2,40,2.58,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A100,2,40,2.58,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A100,2,40,2.58,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A100,2,40,2.58,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A100,2,40,2.58,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A100,2,40,2.9,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100,1,40,3.19,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A100,1,40,3.19,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A100,1,40,3.19,True,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",A100,4,40,5.16,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A100,4,40,5.16,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A100,4,40,5.16,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A100,4,40,5.16,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A100,4,40,5.16,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A100,4,40,5.16,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A100,4,40,5.16,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A100,4,40,5.8,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100,2,40,6.26,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A100,2,40,6.26,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A100,2,40,6.26,False,pcie
+2026-03-23,denvr,"CA, Calgary",A100,8,40,10.0,True,sxm4
+2026-03-23,lambdalabs,"IN, Mumbai",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"JP, Osaka",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"JP, Tokyo",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"IL, Jerusalem",A100,8,40,10.32,False,pcie
+2026-03-23,lambdalabs,"DE, Frankfurt",A100,8,40,10.32,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A100,8,40,11.6,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100,4,40,12.44,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A100,4,40,12.44,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A100,4,40,12.44,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100,8,40,24.88,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A100,8,40,24.88,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A100,8,40,24.88,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,1,80,1.24,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,1,80,1.24,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,1,80,1.24,False,sxm4
+2026-03-23,massedcompute,"US, Kansas City, MO",A100_80G,1,80,1.24,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,1,80,1.24,False,sxm4
+2026-03-23,massedcompute,"US, Beltsville, MD",A100_80G,1,80,1.24,False,sxm4
+2026-03-23,massedcompute,"US, Kansas City, KS",A100_80G,1,80,1.24,True,sxm4
+2026-03-23,massedcompute,"US, Wichita, KS",A100_80G,1,80,1.28,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,1,80,1.28,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A100_80G,1,80,1.28,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A100_80G,1,80,1.35,True,pcie
+2026-03-23,denvr,"US, Houston, TX",A100_80G,1,80,1.35,True,sxm4
+2026-03-23,crusoe,"US, Fairview, OH",A100_80G,1,80,1.65,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",A100_80G,1,80,1.65,True,pcie
+2026-03-23,crusoe,us-west1-a,A100_80G,1,80,1.65,False,pcie
+2026-03-23,verda,"FI, Central",A100_80G,1,80,1.82,True,sxm4
+2026-03-23,verda,"FI, Central",A100_80G,1,80,1.82,True,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,2,80,2.56,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A100_80G,2,80,2.56,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,2,80,2.56,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A100_80G,2,80,2.56,False,pcie
+2026-03-23,vultr,"GB, London",A100_80G,1,80,2.6,False,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A100_80G,1,80,2.6,False,pcie
+2026-03-23,vultr,"US, Newark, NJ",A100_80G,1,80,2.6,True,pcie
+2026-03-23,vultr,"IN, Bangalore",A100_80G,1,80,2.6,False,pcie
+2026-03-23,vultr,"JP, Tokyo",A100_80G,1,80,2.6,False,pcie
+2026-03-23,vultr,"DE, Frankfurt",A100_80G,1,80,2.6,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A100_80G,2,80,2.7,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100_80G,1,80,3.28,False,sxm4
+2026-03-23,paperspace,"US, Santa Clara, CA",A100_80G,1,80,3.28,False,sxm4
+2026-03-23,paperspace,"US, New York, NY",A100_80G,1,80,3.28,True,sxm4
+2026-03-23,crusoe,"US, Fairview, OH",A100_80G,2,80,3.3,False,pcie
+2026-03-23,crusoe,us-west1-a,A100_80G,2,80,3.3,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",A100_80G,2,80,3.3,True,pcie
+2026-03-23,verda,"FI, Central",A100_80G,2,80,3.64,False,sxm4
+2026-03-23,verda,"FI, Central",A100_80G,2,80,3.64,False,sxm4
+2026-03-23,massedcompute,"US, Wichita, KS",A100_80G,4,80,5.12,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A100_80G,4,80,5.12,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,4,80,5.12,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,4,80,5.12,False,pcie
+2026-03-23,hyperstack,"NO, Oslo",A100_80G,4,80,5.4,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A100_80G,4,80,5.4,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100_80G,2,80,6.48,False,sxm4
+2026-03-23,paperspace,"US, Santa Clara, CA",A100_80G,2,80,6.48,False,sxm4
+2026-03-23,paperspace,"US, New York, NY",A100_80G,2,80,6.48,False,sxm4
+2026-03-23,crusoe,"US, Fairview, OH",A100_80G,4,80,6.6,False,pcie
+2026-03-23,crusoe,us-west1-a,A100_80G,4,80,6.6,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",A100_80G,4,80,6.6,False,pcie
+2026-03-23,verda,"FI, Central",A100_80G,4,80,7.28,False,sxm4
+2026-03-23,verda,"FI, Central",A100_80G,4,80,7.28,False,sxm4
+2026-03-23,verda,"FI, Central",A100_80G,4,80,7.28,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Kansas City, MO",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Kansas City, KS",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Beltsville, MD",A100_80G,8,80,10.24,False,sxm4
+2026-03-23,massedcompute,"US, Wichita, KS",A100_80G,8,80,10.24,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,8,80,10.24,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A100_80G,8,80,10.24,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A100_80G,8,80,10.24,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A100_80G,8,80,10.8,True,pcie
+2026-03-23,denvr,"US, Houston, TX",A100_80G,8,80,10.8,True,sxm4
+2026-03-23,hyperstack,"CA, Montreal",A100_80G,8,80,11.2,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100_80G,4,80,12.88,False,sxm4
+2026-03-23,paperspace,"US, New York, NY",A100_80G,4,80,12.88,False,sxm4
+2026-03-23,paperspace,"US, Santa Clara, CA",A100_80G,4,80,12.88,False,sxm4
+2026-03-23,excesssupply,"US, Dulles, VA",A100_80G,8,80,13.11,False,sxm4
+2026-03-23,excesssupply,"AU, Sydney",A100_80G,8,80,13.11,False,sxm4
+2026-03-23,excesssupply,"US, Chicago, IL",A100_80G,8,80,13.11,False,sxm4
+2026-03-23,crusoe,"US, Fairview, OH",A100_80G,8,80,13.2,False,pcie
+2026-03-23,crusoe,us-west1-a,A100_80G,8,80,13.2,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",A100_80G,8,80,13.2,False,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"US, San Jose, Ca",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"US, Dallas, TX",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"US, Chicago, IL",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"US, Dulles, VA",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,lambdalabs,"AU, Sydney",A100_80G,8,80,14.32,False,sxm4
+2026-03-23,verda,"FI, Central",A100_80G,8,80,14.56,False,sxm4
+2026-03-23,verda,"FI, Central",A100_80G,8,80,14.56,False,sxm4
+2026-03-23,crusoe,"US, Culpeper, VA",A100_80G,8,80,15.6,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A100_80G,8,80,25.76,False,sxm4
+2026-03-23,paperspace,"US, Santa Clara, CA",A100_80G,8,80,25.76,False,sxm4
+2026-03-23,paperspace,"US, New York, NY",A100_80G,8,80,25.76,True,sxm4
+2026-03-23,vultr,"JP, Tokyo",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"US, Chicago, IL",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"GB, London",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"SG, Singapore",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"DE, Frankfurt",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"US, Newark, NJ",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"IN, Bangalore",A16,1,16,0.51,True,pcie
+2026-03-23,vultr,atl,A16,1,16,0.51,True,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"IN, Bangalore",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"SG, Singapore",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"GB, London",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"US, Newark, NJ",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"DE, Frankfurt",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"JP, Tokyo",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"US, Chicago, IL",A16,2,16,1.02,True,pcie
+2026-03-23,vultr,atl,A16,2,16,1.02,True,pcie
+2026-03-23,vultr,"SG, Singapore",A16,4,16,2.05,True,pcie
+2026-03-23,vultr,"GB, London",A16,4,16,2.05,False,pcie
+2026-03-23,vultr,"IN, Bangalore",A16,4,16,2.05,True,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A16,4,16,2.05,False,pcie
+2026-03-23,vultr,"JP, Tokyo",A16,4,16,2.05,True,pcie
+2026-03-23,vultr,"DE, Frankfurt",A16,4,16,2.05,True,pcie
+2026-03-23,vultr,"US, Chicago, IL",A16,4,16,2.05,True,pcie
+2026-03-23,vultr,"US, Newark, NJ",A16,4,16,2.05,True,pcie
+2026-03-23,vultr,atl,A16,4,16,2.05,True,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A16,8,16,4.09,False,pcie
+2026-03-23,vultr,"SG, Singapore",A16,8,16,4.09,True,pcie
+2026-03-23,vultr,"GB, London",A16,8,16,4.09,False,pcie
+2026-03-23,vultr,"IN, Bangalore",A16,8,16,4.09,True,pcie
+2026-03-23,vultr,"US, Newark, NJ",A16,8,16,4.09,False,pcie
+2026-03-23,vultr,"JP, Tokyo",A16,8,16,4.09,False,pcie
+2026-03-23,vultr,"DE, Frankfurt",A16,8,16,4.09,False,pcie
+2026-03-23,vultr,"US, Chicago, IL",A16,8,16,4.09,False,pcie
+2026-03-23,vultr,atl,A16,8,16,4.09,True,pcie
+2026-03-23,vultr,"GB, London",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,"JP, Tokyo",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,"SG, Singapore",A16,16,16,9.19,True,pcie
+2026-03-23,vultr,"US, Newark, NJ",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,"US, Chicago, IL",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,"DE, Frankfurt",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,"IN, Bangalore",A16,16,16,9.19,False,pcie
+2026-03-23,vultr,atl,A16,16,16,9.19,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A30,1,24,0.35,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A30,1,24,0.35,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A30,2,24,0.7,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A30,2,24,0.7,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A30,4,24,1.4,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A30,4,24,1.4,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A30,8,24,2.8,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A30,8,24,2.8,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A40,1,48,1.1,False,pcie
+2026-03-23,vultr,"DE, Frankfurt",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"JP, Tokyo",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"AU, Sydney",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"US, Los Angeles, CA",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"IN, Bangalore",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"GB, London",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"SG, Singapore",A40,1,48,1.86,False,pcie
+2026-03-23,vultr,"US, Newark, NJ",A40,1,48,1.86,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A40,2,48,2.2,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A40,4,48,4.4,False,pcie
+2026-03-23,vultr,"US, Newark, NJ",A40,4,48,7.44,False,pcie
+2026-03-23,vultr,"DE, Frankfurt",A40,4,48,7.44,False,pcie
+2026-03-23,vultr,"IN, Bangalore",A40,4,48,7.44,False,pcie
+2026-03-23,vultr,"JP, Tokyo",A40,4,48,7.44,False,pcie
+2026-03-23,vultr,"US, Silicon Valley, CA",A40,4,48,7.44,False,pcie
+2026-03-23,vultr,"GB, London",A40,4,48,7.44,False,pcie
+2026-03-23,crusoe,"US, Fairview, OH",A40,8,48,8.8,False,pcie
+2026-03-23,hyperstack,"NO, Oslo",A4000,1,16,0.15,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",A4000,2,16,0.3,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",A4000,4,16,0.6,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A4000,1,16,0.8,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A4000,1,16,0.8,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A4000,1,16,0.8,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",A4000,8,16,1.2,False,pcie
+2026-03-23,hyperstack,"NO, Oslo",A4000,10,16,1.5,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A4000,2,16,1.6,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A4000,2,16,1.6,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A4000,2,16,1.6,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A4000,4,16,3.2,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A4000,4,16,3.2,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A4000,4,16,3.2,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A5000,1,24,0.44,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A5000,2,24,0.88,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A5000,1,24,1.42,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A5000,1,24,1.42,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A5000,1,24,1.42,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A5000,4,24,1.76,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A5000,2,24,2.84,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A5000,2,24,2.84,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A5000,2,24,2.84,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A5000,8,24,3.52,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A5000,4,24,5.68,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A5000,4,24,5.68,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A5000,4,24,5.68,True,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,1,48,0.49,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",A6000,1,48,0.49,False,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,1,48,0.49,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A6000,1,48,0.5,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",A6000,1,48,0.5,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",A6000,1,48,0.57,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,1,48,0.57,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,1,48,0.57,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,1,48,0.57,True,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,1,48,0.57,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,1,48,0.57,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,1,48,0.57,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,1,48,0.57,True,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,1,48,0.57,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,1,48,0.57,True,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",A6000,1,48,0.8,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A6000,1,48,0.8,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A6000,1,48,0.8,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A6000,1,48,0.8,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A6000,1,48,0.8,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A6000,1,48,0.8,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A6000,1,48,0.8,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",A6000,2,48,0.98,False,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,2,48,0.98,False,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,2,48,0.98,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A6000,2,48,1.0,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",A6000,2,48,1.0,False,pcie
+2026-03-23,verda,"FI, Central",A6000,1,48,1.08,False,pcie
+2026-03-23,verda,"FI, Central",A6000,1,48,1.08,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",A6000,2,48,1.14,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,2,48,1.14,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,2,48,1.14,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,2,48,1.14,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,2,48,1.14,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,2,48,1.14,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,2,48,1.14,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,2,48,1.14,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,2,48,1.14,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,2,48,1.14,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,2,48,1.16,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,2,48,1.16,False,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",A6000,2,48,1.6,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A6000,2,48,1.6,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A6000,2,48,1.6,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A6000,2,48,1.6,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A6000,2,48,1.6,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A6000,2,48,1.6,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A6000,2,48,1.6,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A6000,1,48,1.93,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A6000,1,48,1.93,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A6000,1,48,1.93,True,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,4,48,1.96,False,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,4,48,1.96,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",A6000,4,48,1.96,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A6000,4,48,2.0,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",A6000,4,48,2.0,False,pcie
+2026-03-23,verda,"FI, Central",A6000,2,48,2.16,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",A6000,4,48,2.28,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,4,48,2.28,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,4,48,2.28,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,4,48,2.28,True,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,4,48,2.28,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,4,48,2.28,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,4,48,2.28,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,4,48,2.28,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,4,48,2.28,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,4,48,2.28,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,4,48,2.32,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,4,48,2.32,False,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",A6000,4,48,3.2,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",A6000,4,48,3.2,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",A6000,4,48,3.2,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",A6000,4,48,3.2,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",A6000,4,48,3.2,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",A6000,4,48,3.2,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",A6000,4,48,3.2,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A6000,2,48,3.86,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A6000,2,48,3.86,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A6000,2,48,3.86,True,pcie
+2026-03-23,imwt,"US, Des Moines, IA",A6000,8,48,3.92,False,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,8,48,3.92,False,pcie
+2026-03-23,imwt,"US, Kansas City, MO",A6000,8,48,3.92,False,pcie
+2026-03-23,hyperstack,"NO, Oslo",A6000,8,48,4.0,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",A6000,8,48,4.0,False,pcie
+2026-03-23,verda,"FI, Central",A6000,4,48,4.32,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,8,48,4.56,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,8,48,4.56,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",A6000,8,48,4.56,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,8,48,4.56,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,8,48,4.56,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,8,48,4.56,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,8,48,4.56,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,8,48,4.56,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",A6000,8,48,4.56,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,8,48,4.56,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",A6000,8,48,4.64,False,pcie
+2026-03-23,massedcompute,"US, Wichita, KS",A6000,8,48,4.64,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",A6000,4,48,7.72,False,pcie
+2026-03-23,paperspace,"US, New York, NY",A6000,4,48,7.72,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",A6000,4,48,7.72,False,pcie
+2026-03-23,lambdalabs,"AU, Sydney",B200,1,192,5.29,False,sxm6
+2026-03-23,lambdalabs,"US, Dulles, VA",B200,1,192,5.29,False,sxm6
+2026-03-23,verda,"FI, Central",B200,1,192,5.63,False,sxm6
+2026-03-23,verda,"FI, Central",B200,2,192,9.62,False,sxm6
+2026-03-23,lambdalabs,"US, Dulles, VA",B200,2,192,10.38,False,sxm6
+2026-03-23,lambdalabs,"AU, Sydney",B200,2,192,10.38,False,sxm6
+2026-03-23,verda,"FI, Central",B200,4,192,17.6,False,sxm6
+2026-03-23,lambdalabs,"AU, Sydney",B200,4,192,20.36,False,sxm6
+2026-03-23,lambdalabs,"US, Dulles, VA",B200,4,192,20.36,False,sxm6
+2026-03-23,boostrun,"US, Dallas, TX",B200,8,192,29.92,False,sxm6
+2026-03-23,boostrun,"US, Charlotte, NC",B200,8,192,29.92,False,sxm6
+2026-03-23,verda,"FI, Central",B200,8,192,33.56,False,sxm6
+2026-03-23,excesssupply,"US, Kansas City, MO",B200,8,192,36.11,False,sxm6
+2026-03-23,lambdalabs,"AU, Sydney",B200,8,192,39.92,False,sxm6
+2026-03-23,lambdalabs,"US, Dulles, VA",B200,8,192,39.92,False,sxm6
+2026-03-23,verda,"FI, Central",B300,1,288,6.59,False,sxm6
+2026-03-23,verda,"FI, Central",B300,2,288,11.54,False,sxm6
+2026-03-23,verda,"FI, Central",B300,4,288,21.44,False,sxm6
+2026-03-23,verda,"FI, Central",B300,8,288,41.24,False,sxm6
+2026-03-23,lambdalabs,"US, Austin, TX",CPU,0,0,0.2,False,pcie
+2026-03-23,hyperstack,"NO, Oslo",CPU,0,0,0.35,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",CPU,0,0,0.35,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",CPU,0,0,0.65,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",CPU,0,0,0.65,True,pcie
+2026-03-23,hyperstack,"NO, Oslo",CPU,0,0,1.3,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",CPU,0,0,1.3,True,pcie
+2026-03-23,denvr,"US, Houston, TX",GAUDI2,8,96,8.8,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",GH200,1,96,1.49,False,pcie
+2026-03-23,latitude,"US, Dallas, TX",GH200,1,96,4.23,False,pcie
+2026-03-23,latitude,"US, Dallas, TX",H100,1,80,1.66,False,pcie
+2026-03-23,latitude,"US, Ashburn, VA",H100,1,80,1.66,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",H100,1,80,1.9,True,pcie
+2026-03-23,latitude,"US, Dallas, TX",H100,1,80,1.99,True,pcie
+2026-03-23,voltagepark,"US, Dallas, TX",H100,1,80,1.99,False,sxm5
+2026-03-23,verda,"FI, Central",H100,1,80,2.26,False,sxm5
+2026-03-23,verda,"FI, Central",H100,1,80,2.26,False,sxm5
+2026-03-23,verda,"FI, Central",H100,1,80,2.26,False,sxm5
+2026-03-23,imwt,"US, Des Moines, IA",H100,1,80,2.48,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",H100,1,80,2.48,False,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",H100,1,80,2.49,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",H100,1,80,2.49,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",H100,1,80,2.49,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",H100,1,80,2.49,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",H100,1,80,2.49,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",H100,1,80,2.49,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",H100,1,80,2.49,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,1,80,2.98,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",H100,1,80,2.98,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,1,80,2.98,False,pcie
+2026-03-23,nebius,"FI, Helsinki",H100,1,80,3.06,False,sxm5
+2026-03-23,scaleway,"FR, Paris",H100,1,80,3.08,True,pcie
+2026-03-23,scaleway,"PL, Warsaw",H100,1,80,3.08,True,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",H100,1,80,3.29,False,sxm5
+2026-03-23,lambdalabs,us-midwest-3,H100,1,80,3.29,False,sxm5
+2026-03-23,lambdalabs,"US, Austin, TX",H100,1,80,3.29,False,sxm5
+2026-03-23,digitalocean,"US, New York, NY",H100,1,80,3.34,False,sxm5
+2026-03-23,digitalocean,"CA, Toronto",H100,1,80,3.34,False,sxm5
+2026-03-23,digitalocean,"NL, Amsterdam",H100,1,80,3.34,False,sxm5
+2026-03-23,hyperstack,"CA, Montreal",H100,2,80,3.8,True,pcie
+2026-03-23,horizon,"IS, Blonduos 2",H100,2,80,3.9,True,sxm5
+2026-03-23,voltagepark,"US, Dallas, TX",H100,2,80,3.98,False,sxm5
+2026-03-23,imwt,"US, Des Moines, IA",H100,2,80,4.96,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",H100,2,80,4.96,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,2,80,5.96,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",H100,2,80,5.96,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,2,80,5.96,False,pcie
+2026-03-23,paperspace,"US, New York, NY",H100,1,80,5.99,False,pcie
+2026-03-23,scaleway,"FR, Paris",H100,2,80,6.08,True,pcie
+2026-03-23,scaleway,"PL, Warsaw",H100,2,80,6.08,True,pcie
+2026-03-23,lambdalabs,"US, Austin, TX",H100,2,80,6.38,False,sxm5
+2026-03-23,lambdalabs,"US, Dallas, TX",H100,2,80,6.38,False,sxm5
+2026-03-23,hyperstack,"CA, Montreal",H100,4,80,7.6,True,pcie
+2026-03-23,horizon,"IS, Blonduos 2",H100,4,80,7.8,False,sxm5
+2026-03-23,voltagepark,"US, Dallas, TX",H100,4,80,7.96,False,sxm5
+2026-03-23,latitude,"US, Dallas, TX",H100,4,80,8.97,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",H100,4,80,9.92,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",H100,4,80,9.92,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,4,80,11.92,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,4,80,11.92,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",H100,4,80,11.92,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",H100,4,80,12.36,False,sxm5
+2026-03-23,lambdalabs,"US, Austin, TX",H100,4,80,12.36,False,sxm5
+2026-03-23,latitude,"US, Dallas, TX",H100,8,80,14.34,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",H100,8,80,15.2,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",H100,8,80,15.6,True,pcie
+2026-03-23,horizon,"IS, Blonduos 2",H100,8,80,15.6,True,sxm5
+2026-03-23,voltagepark,"US, Dallas, TX",H100,8,80,15.92,False,sxm5
+2026-03-23,voltagepark,"US, Dallas, TX",H100,8,80,15.92,False,sxm5
+2026-03-23,denvr,"US, Houston, TX",H100,8,80,17.6,True,sxm5
+2026-03-23,hyperstack,"US, Houston, TX",H100,8,80,19.2,False,sxm5
+2026-03-23,hyperstack,"CA, Montreal",H100,8,80,19.2,False,sxm5
+2026-03-23,hyperstack,CANADA-2,H100,8,80,19.2,False,sxm5
+2026-03-23,imwt,"US, Des Moines, IA",H100,8,80,19.84,False,pcie
+2026-03-23,imwt,"US, Des Moines, IA",H100,8,80,19.84,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,8,80,22.0,False,sxm5
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,8,80,22.0,False,sxm5
+2026-03-23,massedcompute,"US, Kansas City, KS",H100,8,80,22.0,False,sxm5
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,8,80,23.92,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100,8,80,23.92,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",H100,8,80,23.92,False,pcie
+2026-03-23,digitalocean,"CA, Toronto",H100,8,80,23.92,False,sxm5
+2026-03-23,digitalocean,"US, New York, NY",H100,8,80,23.92,False,sxm5
+2026-03-23,digitalocean,"NL, Amsterdam",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"IN, Mumbai",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Chicago, IL",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Phoenix, AZ",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, San Jose, Ca",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Dulles, VA",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Dallas, TX",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Dallas, TX",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Austin, TX",H100,8,80,23.92,False,sxm5
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",H100,8,80,23.92,False,sxm5
+2026-03-23,nebius,"FI, Helsinki",H100,8,80,23.99,False,sxm5
+2026-03-23,massedcompute,"US, Des Moines, IA",H100_nvl,2,94,6.32,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100_nvl,2,94,6.32,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100_nvl,4,94,12.64,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100_nvl,4,94,12.64,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",H100_nvl,8,94,25.28,False,pcie
+2026-03-23,excesssupply,"FR, Paris",H200,1,141,2.45,False,sxm5
+2026-03-23,excesssupply,"FI, Helsinki",H200,1,141,2.45,False,sxm5
+2026-03-23,excesssupply,"US, Kansas City, MO",H200,1,141,2.45,False,sxm5
+2026-03-23,excesssupply,"FR, Paris",H200,1,141,3.25,False,sxm5
+2026-03-23,excesssupply,"US, Kansas City, MO",H200,1,141,3.25,False,sxm5
+2026-03-23,excesssupply,"FI, Helsinki",H200,1,141,3.25,False,sxm5
+2026-03-23,digitalocean,"US, New York, NY",H200,1,141,3.44,False,sxm5
+2026-03-23,digitalocean,"US, Atlanta, US",H200,1,141,3.44,False,sxm5
+2026-03-23,nebius,"FR, Paris",H200,1,141,3.65,False,sxm5
+2026-03-23,nebius,"FI, Helsinki",H200,1,141,3.65,False,sxm5
+2026-03-23,nebius,"US, Kansas City, MO",H200,1,141,3.65,False,sxm5
+2026-03-23,verda,"FI, Central",H200,1,141,4.23,False,sxm5
+2026-03-23,verda,"FI, Central",H200,1,141,4.23,True,sxm5
+2026-03-23,verda,"FI, Central",H200,2,141,6.82,False,sxm5
+2026-03-23,verda,"FI, Central",H200,2,141,6.82,False,sxm5
+2026-03-23,verda,"FI, Central",H200,4,141,12.0,False,sxm5
+2026-03-23,verda,"FI, Central",H200,4,141,12.0,False,sxm5
+2026-03-23,amaya,"US, Dowagiac, MI",H200,8,141,18.0,False,sxm5
+2026-03-23,excesssupply,"US, Raleigh, NC",H200,8,141,18.0,False,sxm5
+2026-03-23,excesssupply,"US, Dallas, TX",H200,8,141,18.0,False,sxm5
+2026-03-23,boostrun,"US, Raleigh, NC",H200,8,141,19.6,False,sxm5
+2026-03-23,boostrun,"US, Dallas, TX",H200,8,141,19.6,False,sxm5
+2026-03-23,excesssupply,"FI, Helsinki",H200,8,141,19.86,False,sxm5
+2026-03-23,excesssupply,"FR, Paris",H200,8,141,19.86,False,sxm5
+2026-03-23,excesssupply,"US, Kansas City, MO",H200,8,141,19.86,False,sxm5
+2026-03-23,verda,"FI, Central",H200,8,141,22.36,False,sxm5
+2026-03-23,verda,"FI, Central",H200,8,141,22.36,False,sxm5
+2026-03-23,horizon,"IS, Blonduos 3",H200,8,141,24.0,False,sxm5
+2026-03-23,excesssupply,"US, Kansas City, MO",H200,8,141,26.25,False,sxm5
+2026-03-23,excesssupply,"FI, Helsinki",H200,8,141,26.25,False,sxm5
+2026-03-23,excesssupply,"FR, Paris",H200,8,141,26.25,False,sxm5
+2026-03-23,digitalocean,"US, New York, NY",H200,8,141,27.52,False,sxm5
+2026-03-23,digitalocean,"US, Atlanta, US",H200,8,141,27.52,False,sxm5
+2026-03-23,nebius,"FR, Paris",H200,8,141,28.44,False,sxm5
+2026-03-23,nebius,"FI, Helsinki",H200,8,141,28.44,False,sxm5
+2026-03-23,nebius,"US, Kansas City, MO",H200,8,141,28.44,False,sxm5
+2026-03-23,scaleway,"FR, Paris",L4,1,24,0.9,True,pcie
+2026-03-23,scaleway,"FR, Paris",L4,1,24,0.9,True,pcie
+2026-03-23,scaleway,"PL, Warsaw",L4,1,24,0.9,True,pcie
+2026-03-23,scaleway,"FR, Paris",L4,2,24,1.72,True,pcie
+2026-03-23,scaleway,"FR, Paris",L4,2,24,1.72,True,pcie
+2026-03-23,scaleway,"PL, Warsaw",L4,2,24,1.72,True,pcie
+2026-03-23,scaleway,"FR, Paris",L4,4,24,3.37,False,pcie
+2026-03-23,scaleway,"FR, Paris",L4,4,24,3.37,True,pcie
+2026-03-23,scaleway,"PL, Warsaw",L4,4,24,3.37,True,pcie
+2026-03-23,scaleway,"FR, Paris",L4,8,24,6.67,False,pcie
+2026-03-23,scaleway,"FR, Paris",L4,8,24,6.67,True,pcie
+2026-03-23,scaleway,"PL, Warsaw",L4,8,24,6.67,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40,1,48,0.99,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40,1,48,0.99,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",L40,1,48,1.0,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40,2,48,1.98,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40,2,48,1.98,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",L40,2,48,2.0,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",L40,4,48,4.0,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40,4,48,5.96,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40,4,48,5.96,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",L40,8,48,8.0,True,pcie
+2026-03-23,latitude,"DE, Frankfurt",L40S,1,48,0.74,False,pcie
+2026-03-23,latitude,"US, Dallas, TX",L40S,1,48,0.74,False,pcie
+2026-03-23,latitude,"US, Ashburn, VA",L40S,1,48,0.74,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,1,48,0.88,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40S,1,48,0.88,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",L40S,1,48,0.88,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,1,48,0.88,True,pcie
+2026-03-23,verda,"FI, Central",L40S,1,48,1.36,True,pcie
+2026-03-23,crusoe,"US, Houston, TX",L40S,1,48,1.45,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",L40S,1,48,1.45,False,pcie
+2026-03-23,digitalocean,"CA, Toronto",L40S,1,48,1.57,False,pcie
+2026-03-23,scaleway,"FR, Paris",L40S,1,48,1.61,False,pcie
+2026-03-23,scaleway,"PL, Warsaw",L40S,1,48,1.61,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40S,2,48,1.76,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",L40S,2,48,1.76,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,2,48,1.76,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,2,48,1.76,True,pcie
+2026-03-23,crusoe,"US, Houston, TX",L40S,2,48,2.9,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",L40S,2,48,2.9,True,pcie
+2026-03-23,scaleway,"FR, Paris",L40S,2,48,3.15,False,pcie
+2026-03-23,scaleway,"PL, Warsaw",L40S,2,48,3.15,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",L40S,4,48,3.52,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40S,4,48,3.52,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,4,48,3.52,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,4,48,3.52,False,pcie
+2026-03-23,boostrun,"US, Dallas, TX",L40S,8,48,5.52,False,pcie
+2026-03-23,boostrun,"US, Raleigh, NC",L40S,8,48,5.52,True,pcie
+2026-03-23,crusoe,"US, Houston, TX",L40S,4,48,5.8,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",L40S,4,48,5.8,False,pcie
+2026-03-23,scaleway,"PL, Warsaw",L40S,4,48,6.23,True,pcie
+2026-03-23,scaleway,"FR, Paris",L40S,4,48,6.23,False,pcie
+2026-03-23,latitude,"DE, Frankfurt",L40S,8,48,6.97,False,pcie
+2026-03-23,latitude,"US, Dallas, TX",L40S,8,48,6.97,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,8,48,7.04,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",L40S,8,48,7.04,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",L40S,8,48,7.04,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",L40S,8,48,7.04,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",L40S,8,48,11.6,False,pcie
+2026-03-23,crusoe,"US, Houston, TX",L40S,8,48,11.6,False,pcie
+2026-03-23,scaleway,"PL, Warsaw",L40S,8,48,12.39,True,pcie
+2026-03-23,scaleway,"FR, Paris",L40S,8,48,12.39,False,pcie
+2026-03-23,crusoe,"US, Culpeper, VA",L40S,10,48,14.5,False,pcie
+2026-03-23,crusoe,"US, Houston, TX",L40S,10,48,14.5,False,pcie
+2026-03-23,digitalocean,"CA, Toronto",RTX4000Ada,1,20,0.79,False,pcie
+2026-03-23,excesssupply,"NO, Central",RTX4090,1,24,0.6,True,pcie
+2026-03-23,excesssupply,"NO, Central",RTX4090,2,24,1.2,False,pcie
+2026-03-23,excesssupply,"NO, Central",RTX4090,4,24,2.4,False,pcie
+2026-03-23,evergreen,"US, Casper, WY",RTX4090,8,24,3.2,False,pcie
+2026-03-23,boostrun,"US, Raleigh, NC",RTX4090,8,24,3.92,False,pcie
+2026-03-23,excesssupply,"NO, Central",RTX4090,8,24,4.8,False,pcie
+2026-03-23,excesssupply,"NO, Central",RTX5090,1,32,0.65,True,pcie
+2026-03-23,excesssupply,"NO, Central",RTX5090,2,32,1.3,False,pcie
+2026-03-23,excesssupply,"NO, Central",RTX5090,4,32,2.6,False,pcie
+2026-03-23,excesssupply,"NO, Central",RTX5090,8,32,5.2,False,pcie
+2026-03-23,evergreen,"US, Casper, WY",RTX5090,8,32,5.6,True,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",RTX6000,1,24,0.5,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",RTX6000,1,24,0.5,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",RTX6000,1,24,0.5,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",RTX6000,1,24,0.5,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",RTX6000,1,24,0.5,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",RTX6000,1,24,0.5,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",RTX6000,1,24,0.5,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,1,48,0.97,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,1,48,0.97,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTX6000Ada,1,48,0.97,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",RTX6000Ada,1,48,0.97,True,pcie
+2026-03-23,verda,"FI, Central",RTX6000Ada,1,48,1.07,False,pcie
+2026-03-23,verda,"FI, Central",RTX6000Ada,1,48,1.07,True,pcie
+2026-03-23,digitalocean,"CA, Toronto",RTX6000Ada,1,48,1.57,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTX6000Ada,2,48,1.94,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",RTX6000Ada,2,48,1.94,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,2,48,1.94,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,2,48,1.94,False,pcie
+2026-03-23,verda,"FI, Central",RTX6000Ada,2,48,2.14,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,4,48,3.88,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,4,48,3.88,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTX6000Ada,4,48,3.88,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",RTX6000Ada,4,48,3.88,True,pcie
+2026-03-23,boostrun,"US, Seattle, WA",RTX6000Ada,8,48,4.8,False,sxm5
+2026-03-23,massedcompute,"US, Kansas City, MO",RTX6000Ada,8,48,7.76,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,8,48,7.76,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, KS",RTX6000Ada,8,48,7.76,False,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTX6000Ada,8,48,7.76,False,pcie
+2026-03-23,verda,"FI, Central",RTX6000Ada,8,48,8.48,False,pcie
+2026-03-23,imwt,"US, Beltsville, MD",RTXPro6000,1,96,1.25,False,pcie
+2026-03-23,imwt,"US, Omaha, NE",RTXPro6000,1,96,1.25,False,pcie
+2026-03-23,massedcompute,"US, Beltsville, MD",RTXPro6000,1,96,1.79,True,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTXPro6000,1,96,1.79,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTXPro6000,1,96,1.79,False,pcie
+2026-03-23,hyperstack,"CA, Montreal",RTXPro6000,1,96,1.8,False,pcie
+2026-03-23,latitude,"US, Ashburn, VA",RTXPro6000,1,96,1.9,False,pcie
+2026-03-23,imwt,"US, Beltsville, MD",RTXPro6000,2,96,2.5,False,pcie
+2026-03-23,imwt,"US, Omaha, NE",RTXPro6000,2,96,2.5,False,pcie
+2026-03-23,massedcompute,"US, Beltsville, MD",RTXPro6000,2,96,3.58,True,pcie
+2026-03-23,massedcompute,"US, Des Moines, IA",RTXPro6000,2,96,3.58,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTXPro6000,2,96,3.58,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",RTXPro6000,2,96,3.6,False,pcie
+2026-03-23,imwt,"US, Beltsville, MD",RTXPro6000,4,96,5.0,False,pcie
+2026-03-23,imwt,"US, Omaha, NE",RTXPro6000,4,96,5.0,False,pcie
+2026-03-23,massedcompute,"US, Beltsville, MD",RTXPro6000,4,96,7.16,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTXPro6000,4,96,7.16,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",RTXPro6000,4,96,7.2,False,pcie
+2026-03-23,boostrun,"US, Charlotte, NC",RTXPro6000,8,96,7.92,False,pcie
+2026-03-23,imwt,"US, Omaha, NE",RTXPro6000,8,96,10.0,False,pcie
+2026-03-23,imwt,"US, Beltsville, MD",RTXPro6000,8,96,10.0,False,pcie
+2026-03-23,excesssupply,"US, Charlotte, NC",RTXPro6000,8,96,10.8,False,pcie
+2026-03-23,latitude,TYO4,RTXPro6000,8,96,12.8,True,pcie
+2026-03-23,latitude,AMS,RTXPro6000,8,96,12.8,False,pcie
+2026-03-23,latitude,SYD2,RTXPro6000,8,96,12.8,True,pcie
+2026-03-23,latitude,"US, Ashburn, VA",RTXPro6000,8,96,12.8,False,pcie
+2026-03-23,latitude,"US, Chicago, IL",RTXPro6000,8,96,12.8,False,pcie
+2026-03-23,massedcompute,"US, Beltsville, MD",RTXPro6000,8,96,14.32,False,pcie
+2026-03-23,massedcompute,"US, Kansas City, MO",RTXPro6000,8,96,14.32,True,pcie
+2026-03-23,hyperstack,"CA, Montreal",RTXPro6000,8,96,14.4,False,pcie
+2026-03-23,verda,"FI, Central",V100,1,16,0.39,True,pcie
+2026-03-23,verda,"FI, Central",V100,2,16,0.78,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",V100,1,16,2.34,False,pcie
+2026-03-23,paperspace,"US, New York, NY",V100,1,16,2.34,True,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",V100,1,16,2.34,False,pcie
+2026-03-23,verda,"FI, Central",V100,8,16,3.12,False,pcie
+2026-03-23,lambdalabs,"IN, Mumbai",V100,8,16,4.4,False,pcie
+2026-03-23,lambdalabs,"US, Chicago, IL",V100,8,16,4.4,False,pcie
+2026-03-23,lambdalabs,"US, Phoenix, AZ",V100,8,16,4.4,False,pcie
+2026-03-23,lambdalabs,"US, San Jose, Ca",V100,8,16,4.4,False,pcie
+2026-03-23,lambdalabs,"US, Dulles, VA",V100,8,16,4.4,False,pcie
+2026-03-23,lambdalabs,"US, Salt Lake City, UT",V100,8,16,4.4,False,pcie
+2026-03-23,lambdalabs,"US, Dallas, TX",V100,8,16,4.4,False,pcie
+2026-03-23,paperspace,"NL, Amsterdam",V100_32G,1,32,2.34,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",V100_32G,1,32,2.34,False,pcie
+2026-03-23,paperspace,"US, New York, NY",V100_32G,1,32,2.34,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",V100_32G,2,32,4.68,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",V100_32G,2,32,4.68,False,pcie
+2026-03-23,paperspace,"US, New York, NY",V100_32G,2,32,4.68,True,pcie
+2026-03-23,paperspace,"NL, Amsterdam",V100_32G,4,32,9.36,False,pcie
+2026-03-23,paperspace,"US, Santa Clara, CA",V100_32G,4,32,9.36,False,pcie
+2026-03-23,paperspace,"US, New York, NY",V100_32G,4,32,9.36,True,pcie
