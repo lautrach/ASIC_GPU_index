@@ -1,6 +1,6 @@
 """
 Indices:
-  1. Headline Median Price ($/GPU/hr) with IQR market spread
+  1. Rental GPU Median Price ($/GPU/hr) 
   2. VRAM-Normalized Efficiency ($/GB/hr)
   3. Regional Spread (US / EU / APAC breakdown)
 
@@ -138,25 +138,81 @@ def clean(df: pd.DataFrame) -> pd.DataFrame:
 def compute_headline_index(
     df: pd.DataFrame, models: list[str]
 ) -> tuple[pd.DataFrame, pd.DataFrame]:
+    # """
+    # Compute P25, P50 (median), P75 of price_per_gpu_hour across provider
+    # averages for each model.
+
+    # Returns:
+    #     headline: Summary DataFrame with p25, median, p75, iqr per model
+    #     provider_avg: Per-provider average prices (used for box plot)
+    # """
+    # subset = df[df["gpu_model"].isin(models)]
+
+    # provider_avg = (
+    #     subset.groupby(["gpu_model", "provider"])["price_per_gpu_hour"]
+    #     .mean()
+    #     .reset_index()
+    # )
+    # headline = (
+    #     provider_avg.groupby("gpu_model")["price_per_gpu_hour"]
+    #     .quantile([0.25, 0.50, 0.75])
+    #     .unstack()
+    #     .rename(columns={0.25: "p25", 0.50: "median", 0.75: "p75"})
+    #     .reset_index()
+    # )
+    # headline["iqr"] = headline["p75"] - headline["p25"]
+    # headline["n_providers"] = (
+    #     provider_avg.groupby("gpu_model")["provider"].count().values
+    # )
+    # headline["n_obs"] = (
+    #     subset.groupby("gpu_model")["price_per_gpu_hour"].count().values
+    # )
+
+    # headline = headline.sort_values("median").reset_index(drop=True)
+    # logger.info("Headline index:\n%s", headline.to_string(index=False))
+    # return headline, provider_avg
+
     """
-    Compute P25, P50 (median), P75 of price_per_gpu_hour across provider
-    averages for each model.
+    Compute weighted P25, P50 (median), P75 of price_per_gpu_hour.
+    
+    Weights each provider by their number of listings (proxy for market
+    footprint). Providers with more regions/configs get more influence.
 
     Returns:
         headline: Summary DataFrame with p25, median, p75, iqr per model
-        provider_avg: Per-provider average prices (used for box plot)
+        provider_avg: Per-provider average prices with weights
     """
     subset = df[df["gpu_model"].isin(models)]
 
+    # Provider's average price AND their listing count as weight
     provider_avg = (
-        subset.groupby(["gpu_model", "provider"])["price_per_gpu_hour"]
-        .mean()
+        subset.groupby(["gpu_model", "provider"])
+        .agg(
+            price_per_gpu_hour=("price_per_gpu_hour", "mean"),
+            n_listings=("price_per_gpu_hour", "count"),
+        )
         .reset_index()
     )
+
+    # Normalize weights within each model (sum to 1)
+    provider_avg["weight"] = provider_avg.groupby("gpu_model")[
+        "n_listings"
+    ].transform(lambda x: x / x.sum())
+
+    # Weighted quantiles per model
+    def weighted_quantiles(group, quantiles=[0.25, 0.50, 0.75]):
+        sorted_group = group.sort_values("price_per_gpu_hour")
+        cumw = sorted_group["weight"].cumsum()
+        results = {}
+        for q in quantiles:
+            idx = cumw.searchsorted(q)
+            idx = min(idx, len(sorted_group) - 1)
+            results[q] = sorted_group["price_per_gpu_hour"].iloc[idx]
+        return pd.Series(results)
+
     headline = (
-        provider_avg.groupby("gpu_model")["price_per_gpu_hour"]
-        .quantile([0.25, 0.50, 0.75])
-        .unstack()
+        provider_avg.groupby("gpu_model")
+        .apply(weighted_quantiles, include_groups=False)
         .rename(columns={0.25: "p25", 0.50: "median", 0.75: "p75"})
         .reset_index()
     )
@@ -257,7 +313,7 @@ def generate_html(
                 value=row["median"],
                 number=dict(
                     prefix="$",
-                    suffix="/GPU/hr",
+                    suffix="/hr",
                     font=dict(size=32, color=color),
                     valueformat=".2f",
                 ),
@@ -304,7 +360,7 @@ def generate_html(
             row=2, col=1,
         )
 
-    fig.update_yaxes(title_text="$/GPU/hr", row=2, col=1)
+    fig.update_yaxes(title_text="$/hr", row=2, col=1)
     fig.update_xaxes(title_text="", row=2, col=1)
 
     # Add annotation title for panel 2
